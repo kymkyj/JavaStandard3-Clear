@@ -1,24 +1,16 @@
-### 자바의정석을 되짚어보며 정리하는 Repo
+### Daily Tech Record repo
+### 매일 공부한 기술을 기록하는 저장소
 
-### 정리방식
-
-자바의 정석3th 책을 기본으로 한다. <br>
-각 챕터별로 중요한 부분에 대한 내용을 정리한다. <br>
-Git Readme 파일과 블로그를 병행한다. <br>
-주 내용은 블로그이며 Readme에는 핵심 내용 간단히 정리 후 링크를 달아놓는다.
-
-# Today I Learned(TIL) Wiki
-[![Blog](https://img.shields.io/badge/Blog-cheese10yun.github.io-green.svg)](https://cheese10yun.github.io/)
+### 정리방법
+1. 기술별 폴더로 정리한다.
+2. 메인 Readme 파일에는 링크를 통해 정리
+3. 내용정리는 블로그 + github 정리한다.
+4. git은 간략한 내용만 명시할 것 + 블로그 링크를 걸어놓을 것
 
 ## Spring
 
+
 ## Java
-
-
-
-## 도서
-* [DDD Start 정리](https://github.com/cheese10yun/TIL/blob/master/%EB%8F%84%EC%84%9C/DDD-START.md)
-
 
 ## ETC
 

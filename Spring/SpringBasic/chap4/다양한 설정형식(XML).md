@@ -30,4 +30,33 @@
 * XML 설정방식은 스프링 부트로 인해 잘 사용하지 않지만 레거시 프로젝트들은 이 방식을 사용한다.
 * 컴파일 설정없이 빈 설정정보를 변경할 수 있음(xml파일 자체를 교체) 등의 장점이 있다.
 
+### XML 설정 예시
+
+``` xml
+
+/* xml 방식은 네임 스페이스와 스키마속성을 갖는 <beans>안에 스프링빈설정 작성 */
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="memberService" class="hello.core.member.MemberServiceImpl">
+        <constructor-arg name="memberRepository" ref="memberRepository"/>
+    </bean>
+
+    <bean id="memberRepository" class="hello.core.member.MemoryMemberRepository"/>
+
+    <bean id="orderService" class="hello.core.order.OrderServiceImpl">
+        <constructor-arg name="memberRepository" ref="memberRepository"/>
+        <constructor-arg name="discountPolicy" ref="discountPolicy"/>
+    </bean>
+
+    <bean id="discountPolicy" class="hello.core.discount.RateDiscountPolicy"/>
+</beans>
+
+```
+
+### 용어 정리
+* 
+
 

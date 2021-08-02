@@ -10,13 +10,13 @@
                     ApplicationContext
                       <<Interface>>
                             |
-                --------------------------------------------
-                |                 |                        |             
-                |                 |                        |
-           AnnotationConfig     GenericXml          ApplicationContext
-           ApplicationContext   ApplicationContext         |    
-                |                 |                        |
-             AppConfig.class     appConfig.xml         appConfig.xxx
+          --------------------------------------------
+          |                 |                        |             
+          |                 |                        |
+     AnnotationConfig     GenericXml          ApplicationContext
+     ApplicationContext   ApplicationContext         |    
+          |                 |                        |
+       AppConfig.class     appConfig.xml         appConfig.xxx
 
 ```
 

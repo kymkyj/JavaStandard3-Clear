@@ -52,7 +52,16 @@ public MemberRepository memberRepository(){
 
 ### @Configuration이 없이 @Bean만 적용하면??
 <img src= https://user-images.githubusercontent.com/32288986/128887518-695463a1-a0c0-4d50-99ad-c2e40b3a3080.png>
-* 결과값이 class hello.core.AppConfig 까지만 출력된다.
+
+* 결과 값이 class hello.core.AppConfig 까지만 출력된다.
+* 순수 자바코드가 돌면서 호출되는 만큼 memberRepository가 new로 생성되어 3번 출력되면서 싱글톤이 깨진다.
+
+``` 
+    memberService -> memberRepository = hello.core.member.MemoryMemberRepository@3fed2870
+    orderService -> memberRepository = hello.core.member.MemoryMemberRepository@77128536
+    memberRepository = hello.core.member.MemoryMemberRepository@58326051
+    // 각각 다른것을 호출하게 된다.
+```
 
 
 

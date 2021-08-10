@@ -48,5 +48,10 @@ public MemberRepository memberRepository(){
 > @Bean이 붙은 메서드 마다 스프링 빈이 존재하면 존재하는 빈 반환, 없으면 스프링 빈으로 등록하고 반환하는 코드가 동적 생성 <br>
 > 따라서 싱글톤이 보장되는 것이다.
 
+----
+
+### @Configuration이 없이 @Bean만 적용하면??
+* 
+
 
 

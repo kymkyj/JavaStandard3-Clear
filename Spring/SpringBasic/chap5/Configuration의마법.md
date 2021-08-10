@@ -51,7 +51,9 @@ public MemberRepository memberRepository(){
 ----
 
 ### @Configuration이 없이 @Bean만 적용하면??
-* 
+<img src= https://user-images.githubusercontent.com/32288986/128887518-695463a1-a0c0-4d50-99ad-c2e40b3a3080.png>
+* 결과값이 class hello.core.AppConfig 까지만 출력된다.
+
 
 
 

@@ -35,6 +35,7 @@
 public MemberRepository memberRepository(){
 
     if (memoryMemberRepository가 이미 스프링 컨테이너로 등록되어 있으면?){
+        // Override가 되면서..
         return 스프링 컨테이너에서 찾아서 변환;
     }else { // 스프링 컨테이너에 없으면
          기존 로직을 호출해서 MemoryMemberRepository를 생성하고 스프링 컨테이너에 등록
@@ -43,5 +44,9 @@ public MemberRepository memberRepository(){
     } 
 
 ```
+
+> @Bean이 붙은 메서드 마다 스프링 빈이 존재하면 존재하는 빈 반환, 없으면 스프링 빈으로 등록하고 반환하는 코드가 동적 생성 <br>
+> 따라서 싱글톤이 보장되는 것이다.
+
 
 

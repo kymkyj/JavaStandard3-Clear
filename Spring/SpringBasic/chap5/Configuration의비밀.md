@@ -41,5 +41,20 @@ public class AppConfig {
 
 ### 테스트 및 정리
 <img src = https://user-images.githubusercontent.com/32288986/128882029-78ad4ac1-7450-40f0-8aa6-036c42e467c4.png>
+* 위 이미지에서 보면 실제 출력될것이다 라고 추측한 횟수랑 다른 결과값을 보여준다
+* 예상으로는 memberRepository를 세번 불러야하는데.. 한번만 메서드를 호출한다. 이게 어떻게 된 것일까?
 
-
+```
+    /* 예상 출력순서 */
+    // call AppConfig.memberService
+    // call AppConfig.memberRepository
+    // call AppConfig.memberRepository
+    // call AppConfig.orderService
+    // call AppConfig.memberRepository
+    
+    /* 실제 스프링에서 출력해주는 순서 */
+    // call AppConfig.memberService
+    // call AppConfig.memberRepository
+    // call AppConfig.orderService
+    
+```

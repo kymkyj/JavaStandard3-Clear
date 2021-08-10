@@ -64,6 +64,10 @@ public MemberRepository memberRepository(){
     --> 각각 다른것을 호출하게 된다.
 ```
 
+### 정리
+* @Bean만 사용해도 스프링 빈으로 등록은 되지만, 싱글톤 보장이 안된다.
+* <b>크게 고민할 필요없이 스프링 설정 정보는 항상 @Configuration을 사용해서 싱글톤을 보장하자!</b>
+
 
 
 

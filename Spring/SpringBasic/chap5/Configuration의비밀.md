@@ -36,3 +36,4 @@ public class AppConfig {
   * 이 메서드를 호출하면 new MemoryMemberRepository()를 호출
 * orderService 빈을 만드는 코드도 동일하게 memberRepository()를 호출하고 new MemoryMemberRepository() 호출
 * 결과적으로 new MemoryMemberRepository 가 생성되면서 싱글톤이 꺠지는 것 처럼 보인다.
+

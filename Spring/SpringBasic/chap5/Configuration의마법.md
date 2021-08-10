@@ -60,8 +60,11 @@ public MemberRepository memberRepository(){
     memberService -> memberRepository = hello.core.member.MemoryMemberRepository@3fed2870
     orderService -> memberRepository = hello.core.member.MemoryMemberRepository@77128536
     memberRepository = hello.core.member.MemoryMemberRepository@58326051
-    // 각각 다른것을 호출하게 된다.
+    
+    --> 각각 다른것을 호출하게 된다.
 ```
+
+
 
 
 

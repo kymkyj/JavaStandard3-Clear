@@ -54,7 +54,7 @@ public MemberRepository memberRepository(){
 <img src= https://user-images.githubusercontent.com/32288986/128887518-695463a1-a0c0-4d50-99ad-c2e40b3a3080.png>
 
 * 결과 값이 class hello.core.AppConfig 까지만 출력된다.
-* 순수 자바코드가 돌면서 호출되는 만큼 memberRepository가 new로 생성되어 3번 출력되면서 싱글톤이 깨진다.
+* 순수 자바코드가 돌면서 호출되는 만큼 memberRepository가 new로 생성되어 3번 출력되면서 싱글톤이 깨져버리게 된다.
 
 ``` 
     memberService -> memberRepository = hello.core.member.MemoryMemberRepository@3fed2870

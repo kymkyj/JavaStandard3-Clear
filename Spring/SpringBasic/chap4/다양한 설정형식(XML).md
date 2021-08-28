@@ -34,7 +34,7 @@
 
 ``` xml
 
-/* xml 방식은 네임 스페이스와 스키마속성을 갖는 <beans>안에 스프링빈설정 작성 */
+/* xml 방식은 네임 스페이스와 스키마속성을 갖는 <beans> 태그 안에 스프링빈설정 작성 */
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

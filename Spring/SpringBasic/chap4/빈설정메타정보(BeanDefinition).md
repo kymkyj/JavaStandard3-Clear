@@ -13,8 +13,8 @@
                           |
                           |
              --------------------------------
-             |             |                |
-       AppConfig.class   appConfig.xml    appConfig.xxx
+             |            |                 |
+       AppConfig.class  appConfig.xml    appConfig.xxx
 
 ```
 

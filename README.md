@@ -11,8 +11,4 @@
 ## Spring
 ## Java
 ## Node.js
-## ETC
-
-등등
-
 

@@ -7,9 +7,11 @@
 3. 내용정리는 블로그 + github 정리한다.
 4. git은 되도록 간략하게 정리하는방향으로 + 필요한 부분에 대해서는 블로그에 따로 정리하여 링크걸기
 
-----
-## Spring, SpringBoot
-## Java
-## Node.js
-## Serverless
+```
+Spring, Springboot
+Side project
+Node.js
+
+```
+
 

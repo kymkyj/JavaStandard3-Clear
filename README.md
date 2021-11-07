@@ -9,8 +9,9 @@
 
 ```
 Spring, Springboot
-Side project
 Node.js
+AWS
+JPA
 
 ```
 

@@ -10,9 +10,9 @@
 ```
 Spring, Springboot
 Node.js
-AWS
+AWS, NginX
 JPA
-
+Mysql
 
 ```
 

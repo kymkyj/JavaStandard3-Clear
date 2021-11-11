@@ -12,7 +12,7 @@ Spring, Springboot
 Node.js
 AWS, NginX
 JPA
-Mysql
+Mysql, 
 
 ```
 

@@ -16,7 +16,7 @@
      AnnotationConfig     GenericXml          ApplicationContext
      ApplicationContext   ApplicationContext         |    
           |                 |                        |
-       AppConfig.class     appConfig.xml         appConfig.xxx
+       AppConfig.class   appConfig.xml         appConfig.xxx
 
 ```
 

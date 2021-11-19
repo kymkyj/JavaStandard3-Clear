@@ -11,7 +11,7 @@
 ```
 Spring, Springboot
 Node.js
-AWS, NginX
+AWS, Tomcat
 JPA, ORM 사용
 Mysql
 

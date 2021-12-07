@@ -25,7 +25,7 @@ public class AppConfig {
     }
 
     @Bean
-    // AppConfig = 공연기획자 를 통해 할인정책을 바꾸더라도 이부분만 바꾸면 된다.
+    // AppConfig = 공연기획자 를 통해 할인정책을 바꾸더라도 이부분을 변경해야 한다.
     public DiscountPolicy discountPolicy() {
 //        return new FixDiscountPolicy();
         return new RateDiscountPolicy();

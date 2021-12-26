@@ -7,7 +7,7 @@ public class AppConfig {
 
     // @Bean memberService -> new MemoryMemberRepository()
     // @Bean orderService -> new MemoryMemberRepository()
-    // 이렇게 되면 MemoryMemberRepository를 두번 호출하는데 싱글톤이 깨지는것이 아닌지 생각해봐야 한다.
+    // 이렇게 되면 MemoryMemberRepository를 두번 호출하는데 싱글톤패턴에 어긋나는게 아닌지 확인해봐야한다.
 
     @Bean
     public MemberService memberService(){

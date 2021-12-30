@@ -30,6 +30,6 @@ public class AppConfig {
 
 ```
 
-* new MemoryMemberRepository() 부분이 중복 제거 되었음 
+* new MemoryMemberRepository() 부분이 중복 제거 되었다.
     * MemoryMemberRepository를 다른 구현체로 변경할 때 한부분만 변경
 * AppConfig 를 보면 역할과 구현 클래스가 한눈에 들어온다.

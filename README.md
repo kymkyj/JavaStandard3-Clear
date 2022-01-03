@@ -9,10 +9,10 @@
 5. 플젝 내용에 대해서는 개인블로그 정리 후 노션 링크기록
 
 ```
-Spring, Springboot
-Node.js
-AWS, Tomcat
-JPA, ORM 사용
+Springboot
+AWS EC2
+Tomcat9
+JPA
 Mysql
 
 ```

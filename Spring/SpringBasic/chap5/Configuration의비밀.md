@@ -41,7 +41,7 @@ public class AppConfig {
 
 ### 테스트 및 정리
 <img src = https://user-images.githubusercontent.com/32288986/128882029-78ad4ac1-7450-40f0-8aa6-036c42e467c4.png>
-* 위 이미지에서 보면 실제 출력될것이다 라고 추측한 횟수랑 다른 결과값을 보여준다
+* 위 이미지에서 보면 실제 출력될것이다 라고 추측한 횟수랑 다른 결과값을 보여주고 있다.
 * 예상으로는 memberRepository를 세번 불러야하는데 한번만 메서드를 호출한다.
 * 이렇게 된 이유에 대해서는 다음 장에서 정리하겠다!
 

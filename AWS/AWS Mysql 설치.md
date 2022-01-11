@@ -8,5 +8,5 @@
 위의 명령어로 설치를 진행하고 난 후에 서버를 별도로 설치해준다.
  - sudo yum install mysql-community-server
 
-## 참조url : https://goddaehee.tistory.com/292
+#### 참조url : https://goddaehee.tistory.com/292
 

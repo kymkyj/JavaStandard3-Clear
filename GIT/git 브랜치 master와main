@@ -1,0 +1,17 @@
+## git메인 브랜치 master와 main
+ - git을 사용하기 위해 기본적으로 리포지토리를 생성하고나면 자동으로 master로 생성된다.
+ - 하지만 master로 push 할 경우에 제대로 커밋결과가 적용되지 않는다.
+ - git을 확인해보면 main 브랜치와의 compare가 뜨게된다.
+ - 현재 master 브랜치가 default 브랜치로 설정되어 있다보니 이런 문제가 발생한다.
+ 
+### 조치방법
+ ---
+ git checkout master
+ git branch main master -f
+ git checkout main
+ git push origin main -f
+ ---
+ 
+ 작년부터 흑인 문화를 지지하기 위해 마스터 슬레이브가 인종차별적 발언으로 인식될 수 있어서
+ 기본 브랜치가 master에서 main으로 변경되었다고 한다.
+ 

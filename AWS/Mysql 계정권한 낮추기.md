@@ -2,11 +2,9 @@
 
  - mysql에서 처음에 policy 정책이 medium으로 되어있다.
  
-정책 확인하는 명령어 : show variables like 'validate_password%'
-;
+정책 확인하는 명령어 : show variables like 'validate_password%';
 
-mysql> show variables like 'validate_password%'
-    -> ;
+mysql> show variables like 'validate_password%';
 +--------------------------------------+--------+
 | Variable_name                        | Value  |
 +--------------------------------------+--------+

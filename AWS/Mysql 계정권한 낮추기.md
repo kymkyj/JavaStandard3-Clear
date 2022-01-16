@@ -4,18 +4,18 @@
  
 정책 확인하는 명령어 : show variables like 'validate_password%';
 
-mysql> show variables like 'validate_password%';
-+--------------------------------------+--------+
-| Variable_name                        | Value  |
-+--------------------------------------+--------+
-| validate_password.check_user_name    | ON     |
-| validate_password.dictionary_file    |        |
-| validate_password.length             | 8      |
-| validate_password.mixed_case_count   | 1      |
-| validate_password.number_count       | 1      |
-| validate_password.policy             | MEDIUM |
-| validate_password.special_char_count | 1      |
-+--------------------------------------+--------+
+mysql> show variables like 'validate_password%'; <br>
++--------------------------------------+--------+ <br>
+| Variable_name                        | Value  | <br>
++--------------------------------------+--------+ <br>
+| validate_password.check_user_name    | ON     | <br>
+| validate_password.dictionary_file    |        | <br>
+| validate_password.length             | 8      | <br>
+| validate_password.mixed_case_count   | 1      | <br>
+| validate_password.number_count       | 1      | <br>
+| validate_password.policy             | MEDIUM | <br>
+| validate_password.special_char_count | 1      | <br>
++--------------------------------------+--------+ <br>
 7 rows in set (0.00 sec)
 
 - 명령어를 통해 나온 정책을 살펴보면

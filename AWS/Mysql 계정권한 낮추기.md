@@ -41,11 +41,11 @@ mysql> install plugin validate_password soname 'validate_password.so';
 Query OK, 0 rows affected, 1 warning (0.01 sec)
 
 mysql> select plugin_name, plugin_status from information_schema.plugins where plugin_name like 'validate%';
-+-------------------+---------------+
-| plugin_name       | plugin_status |
-+-------------------+---------------+
-| validate_password | ACTIVE        |
-+-------------------+---------------+
++-------------------+---------------+ <br> 
+| plugin_name       | plugin_status | <br>
++-------------------+---------------+ <br>
+| validate_password | ACTIVE        | <br>
++-------------------+---------------+ <br>
 1 row in set (0.00 sec)
 
 다시 정책을 변경해보면

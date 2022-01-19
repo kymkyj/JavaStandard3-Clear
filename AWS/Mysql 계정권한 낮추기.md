@@ -16,7 +16,6 @@ mysql> show variables like 'validate_password%'; <br>
 | validate_password.policy             | MEDIUM | <br>
 | validate_password.special_char_count | 1      | <br>
 +--------------------------------------+--------+ <br>
-7 rows in set (0.00 sec)
 
 - 명령어를 통해 나온 정책을 살펴보면
 - validate_password.check_user_name : 패스워드에 user_id가 들어갔는지를 묻는 것
@@ -35,7 +34,6 @@ mysql> show variables like 'validate_password%'; <br>
 아래의 명령어를 통해 위의 에러를 해결할 수 있다.
 
 mysql> select plugin_name, plugin_status from information_schema.plugins where plugin_name like 'validate%';
-Empty set (0.00 sec)
 
 mysql> install plugin validate_password soname 'validate_password.so';
 Query OK, 0 rows affected, 1 warning (0.01 sec)

@@ -8,7 +8,7 @@
 
 ```
 Springboot
-AWS EC2
+AWS EC2, RDS는 데이터양보고 재세팅
 Tomcat9
 JPA
 Mysql

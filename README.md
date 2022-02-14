@@ -7,7 +7,7 @@
 3. 티스토리 위주로 내용을 정리한다.
 ```
 Springboot
-AWS EC2, RDS는 데이터양보고 재세팅
+AWS는 EC2에다가 전체적으로 세팅하는 방향으로
 Tomcat9
 JPA
 Mysql

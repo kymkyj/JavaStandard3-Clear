@@ -18,3 +18,9 @@
   - 스프링 팀에서 기존 1.5에서 사용되던 spring-security-oauth는 더이상 신규기능 추가없이 유지하기로 결정
   - 스프링 부트용 라이브러리로 출시된 라이브러리
   - 확장 포인트를 고려해서 설계된 형태의 라이브러리다.
+
+### Oauth2에 등장하는 녀석
+  - Resource Server
+  - Resource Owner
+  - Client
+  - Authorization Server

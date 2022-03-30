@@ -24,3 +24,6 @@
   - Resource Owner
   - Client
   - Authorization Server
+
+ Resource Owner가 실제로 사용하는 사용자이며, Resource Server는 oauth2 정보를 제공해주는 소셜서버이다.
+ 이 서버는 별도로 인증을 처리해주는 서버를 둔다.

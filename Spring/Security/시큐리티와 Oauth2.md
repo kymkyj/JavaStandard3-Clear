@@ -22,8 +22,8 @@
   - 확장 포인트를 고려해서 설계된 형태의 라이브러리다.
 
 ### Oauth2에 등장하는 녀석
-  - Resource Server
-  - Resource Owner
+  - Resource Server 카카오 서버
+  - Resource Owner 사용자
   - Client
   - Authorization Server
 

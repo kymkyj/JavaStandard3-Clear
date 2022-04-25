@@ -9,11 +9,13 @@
 ### 기술리스트
 ```
 Springboot
-AWS는 EC2에다가 전체적으로 세팅하는 방향으로 진행한다.
+AWS
 Tomcat9
 JPA
 Mysql
 
 ```
+
+### AWS EC2를 사용하여 별도의 디비를 따로두지않고, EC2 안에 다 세팅하는 방향
 
 

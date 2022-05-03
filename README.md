@@ -13,6 +13,7 @@ AWS
 Tomcat9
 JPA
 Mysql
+Spring Security는 사용하지 않는다
 
 ```
 

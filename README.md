@@ -14,6 +14,7 @@ Tomcat9
 JPA
 Mysql
 Spring Security는 사용하지 않는다
+RSA 토큰 방식으로 진행
 
 ```
 

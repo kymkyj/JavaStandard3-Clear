@@ -15,6 +15,7 @@ JPA
 Mysql
 Spring Security는 사용하지 않는다
 RSA 토큰 방식으로 진행
+UserToken 여부로 api의 사용여부를 판단하기도 한다.
 
 ```
 

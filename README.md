@@ -16,6 +16,7 @@ Mysql
 Spring Security는 사용하지 않는다
 RSA 토큰 방식으로 진행
 UserToken 여부로 api의 사용여부를 판단하기도 한다.
+UserToken은 회원가입시에 하거나 로그인하는 과정에서 넣는방향으로 한다
 
 ```
 

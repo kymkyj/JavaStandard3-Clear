@@ -36,3 +36,18 @@ Check that the correct key URLs are configured for this repository.
  - 위 명령어 실행 후 다시 실행 하는 yum 명령어 : sudo yum install mysql-community-server
 
 참조 url : https://blog.daum.net/kiostory/281
+
+****
+ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement.
+****
+ - mysql 접속 후 위와같은 메시지가 뜬다면
+ - 처음에 root 계정의 비밀번호가 임시적으로 생성되어있으므로 바꿔주는 작업을 먼저하라는 메시지이다.
+
+****
+root 비밀번호 변경후 사용하라고해서 변경
+비번 조건이 까다로움(대소문자숫자특수문자조합일때만 변경가능)
+- 내부 로컬 접속만 허용시
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'Whdcentos12!@';
+- 외부 모든 접속 허용시
+ALTER USER 'root'@'%' IDENTIFIED BY 'Whdcentos12!@';
+****

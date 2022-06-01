@@ -34,3 +34,5 @@ Check that the correct key URLs are configured for this repository.
  아래와 같은 명령어를 먼저 수행한 후에 다시 yum을 실행한다.
  - sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
  - 위 명령어 실행 후 다시 실행 하는 yum 명령어 : sudo yum install mysql-community-server
+
+참조 url : https://blog.daum.net/kiostory/281

@@ -47,7 +47,7 @@ mysql> select plugin_name, plugin_status from information_schema.plugins where p
 1 row in set (0.00 sec)
 
 다시 정책을 변경해보면
-
+변경하기 위해 set global 명령어를 사용하고 해당 목록에 값을 수정한다.
 mysql> set global validate_password_policy=LOW;
 Query OK, 0 rows affected (0.00 sec)
 
